@@ -59,7 +59,10 @@ function createProjectCard(title, imgSrc, description, codeLink = null, resource
 // Render grouped and sorted projects
 function renderProjectsByYear(projects) {
     const groupedProjects = groupProjectsByYear(projects);
-    const sortedYears = Object.keys(groupedProjects).sort((a, b) => b - a); // Sort years descending
+    const sortedYears = Object.keys(groupedProjects).sort((a, b) => {
+        const getStartYear = year => parseInt(year.split('-')[0]); // Extract the starting year
+        return getStartYear(b) - getStartYear(a); // Sort descending based on the starting year
+    });
     const projectsContainer = document.getElementById("projects-container");
 
     sortedYears.forEach(year => {
