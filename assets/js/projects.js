@@ -26,7 +26,7 @@ function groupProjectsByYear(projects) {
 function createProjectCard(title, imgSrc, description, codeLink = null, resourceLink = null, resourceLabel = "Relevant Resources") {
     // Check for optional links and generate buttons conditionally
     const codeButton = codeLink
-        ? `<li><a href="${codeLink}" target="_blank" class="button">View Code</a></li>`
+        ? `<li><a href="${codeLink}" target="_blank" class="button">Code</a></li>`
         : "";
     const resourceButton = resourceLink
         ? `<li><a href="${resourceLink}" target="_blank" class="button">${resourceLabel}</a></li>`
