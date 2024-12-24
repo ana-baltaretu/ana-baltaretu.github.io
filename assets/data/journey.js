@@ -11,7 +11,7 @@ const journey = [
     {
         title: "First place at HackDelft 2024",
         imgSrc: "images/projects/folder/icon.png",
-        description: "For Jetbrains project",
+        description: "For Jetbrains project, plugin, automatic documentation, AI, visualization",
         codeLink: "",
         resourceLink: null,
         year: "2023-2024"
@@ -34,7 +34,7 @@ const journey = [
     },
     {
         title: "3DCG Sonic game",
-        imgSrc: "images/projects/folder/icon.png",
+        imgSrc: "images/projects/3DCG/strong-sonic.png",
         description: "",
         codeLink: "",
         resourceLink: null,
@@ -50,8 +50,8 @@ const journey = [
     },
     {
         title: "Conversational Agents project",
-        imgSrc: "images/projects/folder/icon.png",
-        description: "",
+        imgSrc: "images/projects/conversational-agent/furhat-robot.png",
+        description: "Poetry learning, Memory module, multimodal, robot perception, emotion recognition (facial/audio features)",
         codeLink: "",
         resourceLink: null,
         year: "2022-2023"
@@ -59,14 +59,14 @@ const journey = [
     {
         title: "Tetris robot",
         imgSrc: "images/projects/tetris/tetris-robot.jpeg",
-        description: "",
+        description: "Robotics minor, ROS, package detection (video + LIDAR)",
         codeLink: "",
         resourceLink: null,
         year: "2021-2022"
     },
     {
         title: "Participation at HackDelft 2022",
-        imgSrc: "images/projects/folder/icon.png",
+        imgSrc: "images/projects/hackdelft2022/ind-hackdelft.png",
         description: "Data visualization project for Immigration and Naturalization Service (IND)",
         codeLink: "",
         resourceLink: null,
@@ -95,6 +95,22 @@ const journey = [
         codeLink: "",
         resourceLink: "assets/misc/Fraudweiler-Project-Report.pdf",
         resourceLabel: "Report",
+        year: "2020-2021"
+    },
+    {
+        title: "License plate recognition project",
+        imgSrc: "images/projects/folder/icon.png",
+        description: "Python, Image processing",
+        codeLink: "",
+        resourceLink: null,
+        year: "2020-2021"
+    },
+    {
+        title: "Ray tracing project",
+        imgSrc: "images/projects/cg-ray-tracer/ray_tracer_mirror.png",
+        description: "C++, Bounding volume hierarchy, recursive ray tracing",
+        codeLink: "",
+        resourceLink: null,
         year: "2020-2021"
     },
     {
@@ -139,14 +155,6 @@ const journey = [
         year: "2018-2019"
     },
     {
-        title: "Computer Science Olympiad 2016",
-        imgSrc: "https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-1/245642086_4823399161012035_7438069642355999545_n.png?stp=dst-png_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=hxwkjUFXFIMQ7kNvgFk4hmZ&_nc_zt=24&_nc_ht=scontent-ams2-1.xx&_nc_gid=AKQe6Sn4khrx9x5SHbCRhOz&oh=00_AYAxE0sGOW2Btl8Ye0kGazYrZVNTRdelyMmHsZkIhEi-Hg&oe=675CFA72",
-        description: "Attended 'Hai la olimpiada', a weekly training programme for the olympiad with around 30 other students. We mainly solved problems from <a href=\"https://www.infoarena.ro/\" target=\"_blank\">Infoarena</a>. It was everyone's first year coding so we solved very simple problems to get used to C++, loops, recursion, matrices, and basic greedy & dynamic programming problems. One problem that I distinctevely remember solving was <a href=\"https://www.infoarena.ro/job_detail/1581717\" target=\"_blank\">`Spirala`</a> (problem text <a href=\"https://www.infoarena.ro/problema/spirala\" target=\"_blank\">here</a>), because it was one of the first problems which felt intuitive for me to solve. Participated in the Local Stage of the CS Olympiad in Cluj-Napoca - barely got any points (massive fail), I wrote the wrong name for the input file haha. Was selected for a more restricted learning group with 4 other students organized by <a href=\"https://www.facebook.com/learnhouse/\" target=\"_blank\">Learnhouse</a>, taught by <a href=\"https://www.linkedin.com/in/petru-wellcode\" target=\"_blank\">Petru Trimbitas</a>.",
-        codeLink: "",
-        resourceLink: null, 
-        year: "2015-2016"
-    },
-    {
         title: "Computer Science Olympiad 2017",
         imgSrc: "images/projects/cs-olympiad/bronze-medal.png",
         description: "Continued attending the <a href=\"https://www.nouanepasa.ro/hai-la-olimpiada\" target=\"_blank\">'Hai la olimpiada'</a> training programme, after passing all the entry contests. Started competing in <a href=\"https://codeforces.com/profile/anisca22\" target=\"_blank\">Codeforces</a>. This year I started working on problems involving different data structures (stacks, queues), and more fun problems like 'Evaluare de expresii' using the Reverse Polish notation, and problems involving matrix traversal: using Breadth First Search (BFS), Depth First Search (DFS) and Flood Fill. <br> Participated in the Computer Science Olympiad, got <b>3rd place</b> at the <a href=\"https://www.algopedia.ro/oji2015/2017-10.html\" target=\"_blank\">county stage (OJI) in Cluj</a>, which meant I qualified to the National CS Olympiad (ONI) in Romania, where I received a <b>bronze medal</b>. From OJI I also qualified and participated in the 'Grigore Moisil' regional contest.",
@@ -169,6 +177,14 @@ const journey = [
         codeLink: "",
         resourceLink: null,
         year: "2016-2017"
+    },
+    {
+        title: "Computer Science Olympiad 2016",
+        imgSrc: "images/projects/cs-olympiad/hai-la-olimpiada-square.png",
+        description: "Attended 'Hai la olimpiada', a weekly training programme for the olympiad with around 30 other students. We mainly solved problems from <a href=\"https://www.infoarena.ro/\" target=\"_blank\">Infoarena</a>. It was everyone's first year coding so we solved very simple problems to get used to C++, loops, recursion, matrices, and basic greedy & dynamic programming problems. One problem that I distinctevely remember solving was <a href=\"https://www.infoarena.ro/job_detail/1581717\" target=\"_blank\">`Spirala`</a> (problem text <a href=\"https://www.infoarena.ro/problema/spirala\" target=\"_blank\">here</a>), because it was one of the first problems which felt intuitive for me to solve. Participated in the Local Stage of the CS Olympiad in Cluj-Napoca - barely got any points (massive fail), I wrote the wrong name for the input file haha. Was selected for a more restricted learning group with 4 other students organized by <a href=\"https://www.facebook.com/learnhouse/\" target=\"_blank\">Learnhouse</a>, taught by <a href=\"https://www.linkedin.com/in/petru-wellcode\" target=\"_blank\">Petru Trimbitas</a>.",
+        codeLink: "",
+        resourceLink: null, 
+        year: "2015-2016"
     },
     
 ];
