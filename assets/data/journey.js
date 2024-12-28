@@ -18,7 +18,7 @@ const journey = [
     },
     {
         title: "Medical visualization project",
-        imgSrc: "images/projects/folder/icon.png",
+        imgSrc: "images/projects/medvis/medvis1.png",
         description: "",
         codeLink: "",
         resourceLink: null,
@@ -99,7 +99,7 @@ const journey = [
     },
     {
         title: "License plate recognition project",
-        imgSrc: "images/projects/folder/icon.png",
+        imgSrc: "images/projects/image-processing/image-processing.png",
         description: "Python, Image processing",
         codeLink: "",
         resourceLink: null,
@@ -114,9 +114,9 @@ const journey = [
         year: "2020-2021"
     },
     {
-        title: "Campus room booking project",
-        imgSrc: "images/projects/folder/icon.png",
-        description: "Java, OOPP",
+        title: "Campus Management System",
+        imgSrc: "images/projects/oopp/campus-management-square.png",
+        description: "Java, OOPP, Room booking, Reserving bikes, Ordering food, user profile, Spring, Mock testing, MVC architecture, UI/UX, User access levels (admin, normal user, restaurant manager), API endpoints, adding images (user profile photos / restaurant / room photos), ",
         codeLink: "",
         resourceLink: null,
         year: "2019-2020"
@@ -161,6 +161,14 @@ const journey = [
         codeLink: "",
         resourceLink: null,   
         year: "2016-2017"
+    },
+    {
+        title: "Computer Science Olympiad 2018",
+        imgSrc: "images/projects/folder/icon.jpg",
+        description: "11th-12th grade problems, participated in the national olympiad",
+        codeLink: "",
+        resourceLink: null,
+        year: "2017-2018"
     },
     {
         title: "Lead Software Developer & 3D Modeler @ Primetech",
