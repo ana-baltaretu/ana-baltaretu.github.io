@@ -1,61 +1,86 @@
 const journey = [
     
+    // {
+    //     title: "First place at HackDelft 2024",
+    //     imgSrc: "images/projects/folder/icon.png",
+    //     description: "For Jetbrains project, plugin, automatic documentation, AI, visualization, team of 4 girls",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2023-2024"
+    // },
+    // {
+    //     title: "Analysis of Fully Unsupervised Action Segmentation model",
+    //     imgSrc: "images/projects/folder/icon.png",
+    //     description: "Deep Learning: Reproduction of Fully Unsupervised Action Segmentation paper.",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2023-2024"
+    // },
+    // {
+    //     title: "Educational technologies, TA replacement bot",
+    //     imgSrc: "images/projects/folder/icon.png",
+    //     description: "",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2023-2024"
+    // },
+    // {
+    //     title: "Medical visualization project",
+    //     imgSrc: "images/projects/medvis/medvis1.png",
+    //     description: "",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2023-2024"
+    // },
+    // {
+    //     title: "Analysis of Image Recolorization models",
+    //     imgSrc: "images/projects/computer-vision/recolorization.png",
+    //     description: "Computer vision, colorblind, image recolorization",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2022-2023"
+    // },
     {
-        title: "",
-        imgSrc: "images/projects/folder/icon.png",
-        description: "",
+        title: "Sentiment Analysis Release and Deployment project",
+        imgSrc: "images/projects/remla/Pipeline.png",
+        description: "We developed a scalable software system for sentiment analysis of restaurant reviews, combining a Natural Language Processing (NLP) model built with nltk and a Naive Bayes classifier. The project featured a GitHub Actions pipeline for automated building, linting, testing, and deployment. Using Docker and Kubernetes, we implemented a scalable microservices architecture, monitored with Prometheus and Grafana for performance insights. We used Swagger to provide clear RESTful API documentation, ensuring usability and integration. This project highlights end-to-end automation, robust monitoring, and modern DevOps practices in a collaborative setting.",
         codeLink: "",
         resourceLink: null,
-        year: "yyyy-yyyy"
-    },
-    {
-        title: "First place at HackDelft 2024",
-        imgSrc: "images/projects/folder/icon.png",
-        description: "For Jetbrains project, plugin, automatic documentation, AI, visualization",
-        codeLink: "",
-        resourceLink: null,
-        year: "2023-2024"
-    },
-    {
-        title: "Medical visualization project",
-        imgSrc: "images/projects/medvis/medvis1.png",
-        description: "",
-        codeLink: "",
-        resourceLink: null,
-        year: "2023-2024"
+        year: "2022-2023"
     },
     {
         title: "Software Architect for Food Delivery Application",
-        imgSrc: "images/projects/folder/icon.png",
-        description: "",
+        imgSrc: "images/projects/software-architecture/component-diagram.png",
+        description: "Collaborated in a team of 4 Architects to design and implement a robust and scalable Microservices architecture for a food delivery application inspired by platforms like Thuisbezorgd and Uber Eats. Led stakeholder analysis and requirements engineering to define functional and non-functional goals for a scalable food delivery application. Organized and facilitated team planning, ensuring alignment on objectives and effective task distribution. Designed a microservices architecture using Domain-Driven Design (DDD) principles, including services for order management, notifications, location tracking. Integrated Kafka for asynchronous communication to improve scalability and fault tolerance. Contributed to ethical considerations by addressing data privacy, equitable resource allocation, and environmental impact. Conducted load testing to evaluate performance metrics like latency and throughput, refining the architecture for decoupling high-demand services.",
         codeLink: "",
-        resourceLink: null,
+        resourceLink: "images/projects/software-architecture/FoodDeliveryApplication-Report.pdf",
+        resourceLabel: "Report",
         year: "2022-2023"
     },
-    {
-        title: "3DCG Sonic game",
-        imgSrc: "images/projects/3DCG/strong-sonic.png",
-        description: "",
-        codeLink: "",
-        resourceLink: null,
-        year: "2022-2023"
-    },
-    {
-        title: "Data visualization: Hotel booking",
-        imgSrc: "images/projects/datavis/hotel-bookings.png",
-        description: "",
-        codeLink: "",
-        resourceLink: null,
-        year: "2022-2023"
-    },
-    {
-        title: "Conversational Agents project",
-        imgSrc: "images/projects/conversational-agent/furhat-robot.png",
-        description: "Poetry learning, Memory module, multimodal, robot perception, emotion recognition (facial/audio features)",
-        codeLink: "",
-        resourceLink: null,
-        year: "2022-2023"
-    },
+    // {
+    //     title: "3DCG Sonic game",
+    //     imgSrc: "images/projects/3DCG/strong-sonic.png",
+    //     description: "",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2022-2023"
+    // },
+    // {
+    //     title: "Data visualization: Hotel booking",
+    //     imgSrc: "images/projects/datavis/hotel-bookings.png",
+    //     description: "",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2022-2023"
+    // },
+    // {
+    //     title: "Conversational Agents project",
+    //     imgSrc: "images/projects/conversational-agent/furhat-robot.png",
+    //     description: "Poetry learning, Memory module, multimodal, robot perception, emotion recognition (facial/audio features), simulated furhat robot",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2022-2023"
+    // },
     {
         title: "Tetris robot",
         imgSrc: "images/projects/tetris/tetris-robot.jpeg",
@@ -91,7 +116,7 @@ const journey = [
     {
         title: "Full-stack Developer @ Fraudweiler",
         imgSrc: "images/projects/fraudweiler/fraudweiler-icon.png",
-        description: "Plagiarism Detection",
+        description: "We designed and implemented a plagiarism detection system using Spring Boot for the backend and Thymeleaf for the frontend. The system is built for flexibility, supporting the integration of new algorithms and accommodating diverse data sources like submissions from different educational platforms. With asynchronous processing, plagiarism checks run quickly and efficiently. To improve the review and reporting process, we added automatic and manual highlighting of suspicious sections, making it easier for educators to identify potential issues. User surveys and testing sessions helped refine the system’s functionality and usability, ensuring it effectively meets the needs of both teachers and students.",
         codeLink: "",
         resourceLink: "assets/misc/Fraudweiler-Project-Report.pdf",
         resourceLabel: "Report",
@@ -116,7 +141,7 @@ const journey = [
     {
         title: "Campus Management System",
         imgSrc: "images/projects/oopp/campus-management-square.png",
-        description: "Java, OOPP, Room booking, Reserving bikes, Ordering food, user profile, Spring, Mock testing, MVC architecture, UI/UX, User access levels (admin, normal user, restaurant manager), API endpoints, adding images (user profile photos / restaurant / room photos), ",
+        description: "Java, OOPP, Room booking, Reserving bikes, Ordering food, user profile, Spring, Mock testing, MVC architecture, UI/UX, User access levels (admin, normal user, restaurant manager), API endpoints, adding images (user profile photos / restaurant / room photos), Randomly assigned team of 7 people",
         codeLink: "",
         resourceLink: null,
         year: "2019-2020"
@@ -154,6 +179,14 @@ const journey = [
         codeLink: "",
         year: "2018-2019"
     },
+    // {
+    //     title: "Computer Science Olympiad 2018",
+    //     imgSrc: "images/projects/folder/icon.jpg",
+    //     description: "11th-12th grade problems, participated in the national olympiad",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2017-2018"
+    // },
     {
         title: "Computer Science Olympiad 2017",
         imgSrc: "images/projects/cs-olympiad/bronze-medal.png",
@@ -161,14 +194,6 @@ const journey = [
         codeLink: "",
         resourceLink: null,   
         year: "2016-2017"
-    },
-    {
-        title: "Computer Science Olympiad 2018",
-        imgSrc: "images/projects/folder/icon.jpg",
-        description: "11th-12th grade problems, participated in the national olympiad",
-        codeLink: "",
-        resourceLink: null,
-        year: "2017-2018"
     },
     {
         title: "Lead Software Developer & 3D Modeler @ Primetech",
