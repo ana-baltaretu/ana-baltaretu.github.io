@@ -81,13 +81,22 @@ const journey = [
     //     resourceLink: null,
     //     year: "2022-2023"
     // },
+    // {
+    //     title: "Tetris robot",
+    //     imgSrc: "images/projects/tetris/tetris-robot.jpeg",
+    //     description: "Robotics minor, ROS, package detection (video + LIDAR)",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2021-2022"
+    // },
     {
-        title: "Tetris robot",
-        imgSrc: "images/projects/tetris/tetris-robot.jpeg",
-        description: "Robotics minor, ROS, package detection (video + LIDAR)",
-        codeLink: "",
-        resourceLink: null,
-        year: "2021-2022"
+    title: "Tetris robot",
+    imgSrc: "images/projects/tetris/tetris-robot.jpeg",
+    description: "As part of the Robotics minor at TU Delft, I worked in a multidisciplinary team to design and build a 7-DOF robotic arm capable of stacking parcels into an airplane container. I focused on the software side, developing package detection using a camera and a <a href=\"https://en.wikipedia.org/wiki/Lidar\" target=\"_blank\">LiDAR</a>, and integrating these into <a href=\"https://www.ros.org/\" target=\"_blank\">ROS</a> for localization. I also contributed to testing and motion control, learning the basics of robotic middleware and real-time sensor fusion. The project was done in collaboration with <a href=\"https://www.vanderlande.com/\" target=\"_blank\">Vanderlande</a> and involved creating a full prototype robot from scratch, covering mechanics, electronics, and intelligent software.",
+    codeLink: "",
+    resourceLink: "assets/misc/Robotics_Handover_Document.pdf",
+    resourceLabel: "Report",
+    year: "2021-2022"
     },
     {
         title: "Participation at HackDelft 2022",
