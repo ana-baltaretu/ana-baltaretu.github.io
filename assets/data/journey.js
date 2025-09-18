@@ -88,7 +88,7 @@ const journey = [
         codeLink: "",
         resourceLink: "https://controlledexperimentsinml.org/",
         resourceLabel: "Website",
-        year: "2023-2024"
+        year: "2024-2025"
     }, 
     {
         title: "First place at HackDelft 2024 (JetBrains Track)",
