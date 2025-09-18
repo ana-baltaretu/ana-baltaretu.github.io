@@ -82,6 +82,15 @@ const journey = [
     //     year: "2022-2023"
     // },
     {
+        title: "Full stack Developer for Controlled Datasets Website",
+        imgSrc: "images/projects/controlled_dataset.png",
+        description: "Developed a website to support research on the basic properties of machine learning models by publishing single-change dataset experiments, enabling researchers to explore how small, controlled variations in data affect model behavior and connect these insights to relevant academic papers. I designed the <a href='https://firebase.google.com/' target='_blank'>Firebase</a> architecture to store and connect datasets and papers, implemented <a href='https://docs.github.com/en/authentication' target='_blank'>GitHub authentication</a> for secure access, and developed a clear <a href='https://react.dev/' target='_blank'>React</a>-based UI for easy navigation. I also integrated <a href='https://www.algolia.com/' target='_blank'>Algolia</a> for fast search and deployed the platform with <a href='https://nodejs.org/' target='_blank'>Node</a> and Firebase. The website was successfully adopted in the Master’s Deep Learning course at TU Delft, where students used it to explore controlled datasets and gain hands-on insights into model behavior and its connection to published research.",
+        codeLink: "",
+        resourceLink: "https://controlledexperimentsinml.org/",
+        resourceLabel: "Website",
+        year: "2023-2024"
+    }, 
+    {
         title: "First place at HackDelft 2024 (JetBrains Track)",
         imgSrc: "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/JetBrains_beam_logo.svg/2048px-JetBrains_beam_logo.svg.png",
         description: "Led a team of 4 in developing an IDE extension to improve software documentation with AI assistance. I kept the team focused and motivated, ensuring we brainstormed effectively and converged on the best idea. Our solution targeted common documentation issues: outdated files, time wasted on onboarding, and difficulty navigating large codebases. We designed a plugin that generates up-to-date documentation, creates mind maps and visualizations for better understanding, and detects conceptual duplicates in code. Using a <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a> prototype, we demonstrated how the extension could make documentation clearer at a high level, reduce wasted developer hours, and make onboarding easier. This project won the JetBrains track at HackDelft 2024.",
