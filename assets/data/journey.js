@@ -108,14 +108,14 @@ const journey = [
         resourceLabel: "Report",
         year: "2021-2022"
     },
-    {
-        title: "Participation at HackDelft 2022",
-        imgSrc: "images/projects/hackdelft2022/ind-hackdelft.png",
-        description: "Data visualization project for Immigration and Naturalization Service (IND)",
-        codeLink: "",
-        resourceLink: null,
-        year: "2021-2022"
-    },
+    // {
+    //     title: "Participation at HackDelft 2022",
+    //     imgSrc: "images/projects/hackdelft2022/ind-hackdelft.png",
+    //     description: "Data visualization project for Immigration and Naturalization Service (IND)",
+    //     codeLink: "",
+    //     resourceLink: null,
+    //     year: "2021-2022"
+    // },
     {
         title: "EV-Mask-RCNN: Instance Segmentation in Event-based Videos",
         imgSrc: "images/projects/ev-mask-rcnn/poster.jpg",
