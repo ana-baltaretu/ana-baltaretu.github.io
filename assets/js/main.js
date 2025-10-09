@@ -29,6 +29,15 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
+			// Ensure security rel attributes for any external links opened in new tabs
+			// This also covers links added dynamically by other scripts
+			document.querySelectorAll('a[target="_blank"]').forEach(function(anchor) {
+				var rel = anchor.getAttribute('rel') || '';
+				if (!/\bnoopener\b/.test(rel) || !/\bnoreferrer\b/.test(rel)) {
+					anchor.setAttribute('rel', (rel + ' noopener noreferrer').trim());
+				}
+			});
 		});
 
 	// Fix: Flexbox min-height bug on IE.

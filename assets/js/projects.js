@@ -26,16 +26,16 @@ function groupProjectsByYear(projects) {
 function createProjectCard(title, imgSrc, description, codeLink = null, resourceLink = null, resourceLabel = "Relevant Resources") {
     // Check for optional links and generate buttons conditionally
     const codeButton = codeLink
-        ? `<li><a href="${codeLink}" target="_blank" class="button">Code</a></li>`
+        ? `<li><a href="${codeLink}" target="_blank" rel="noopener noreferrer" class="button">Code</a></li>`
         : "";
     const resourceButton = resourceLink
-        ? `<li><a href="${resourceLink}" target="_blank" class="button">${resourceLabel}</a></li>`
+        ? `<li><a href="${resourceLink}" target="_blank" rel="noopener noreferrer" class="button">${resourceLabel}</a></li>`
         : "";
 
     return `
         <section class="card">
             <div class="card-image">
-                ${imgSrc ? `<img src="${imgSrc}" alt="${title}" />` : ""}
+                ${imgSrc ? `<img src="${imgSrc}" alt="${title}" loading="lazy" />` : ""}
             </div>
 
             <div class="card-content">
