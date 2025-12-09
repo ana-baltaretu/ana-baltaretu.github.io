@@ -1,13 +1,14 @@
 const journey = [
 
-    // {
-    //     title: "First place at HackDelft 2024",
-    //     imgSrc: "images/projects/folder/icon.png",
-    //     description: "For Jetbrains project, plugin, automatic documentation, AI, visualization, team of 4 girls",
-    //     codeLink: "",
-    //     resourceLink: null,
-    //     year: "2023-2024"
-    // },
+    {
+        title: "Participation in JunctionX Delft 2025",
+        imgSrc: "images/projects/folder/icon.png",
+        description: "....",
+        codeLink: "",
+        resourceLink: "https://www.youtube.com/watch?v=7uvhT0awkrw",
+        resourceLabel: "Presentation",
+        year: "2024-2025"
+    },
     // {
     //     title: "Analysis of Fully Unsupervised Action Segmentation model",
     //     imgSrc: "images/projects/folder/icon.png",
@@ -40,6 +41,15 @@ const journey = [
     //     resourceLink: null,
     //     year: "2022-2023"
     // },
+     {
+        title: "Master thesis: Are we SMPLy biased?",
+        imgSrc: "images/projects/thesis/SMPLy_biased.png",
+        description: "For my MSc thesis project I built the Ctrl-A-Bias synthetic dataset of 8,400 short videos covering 20 human actions, 7 skin tones, 2 camera viewpoints and 3 backgrounds, and used it to audit 5 off the shelf action recognition models. To build the dataset I combined <a href=\"https://smpl.is.tue.mpg.de/\" target=\"_blank\">SMPL</a> based 3D human bodies, motion capture style animations and scripted pipelines in <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a> and <a href=\"https://www.python.org/\" target=\"_blank\">Python</a> to generate controlled video renderings at scale. By running controlled interventions, I showed that viewpoint and background alone can meaningfully influence the accuracy of models, that only 3 models generalized reliably to synthetic data, and that all of the models changed predictions across skin tone pairs. This behavior is ethically problematic, since publicly released models should not change their output when only skin color is altered in an otherwise identical scene, and it raises concerns with respect to robustness expectations for high-risk AI systems in the EU AI Act. The fact that the highest accuracy model also showed the largest prediction divergence underlines that better benchmark scores do not automatically lead to fairer decisions.",
+        codeLink: "https://github.com/ana-baltaretu/bias-action-recognition",
+        resourceLink: "https://repository.tudelft.nl/record/uuid:6095e22f-abc8-4f6d-9e6d-44d2dd40a28f",
+        resourceLabel: "Thesis",
+        year: "2024-2025"
+    },
     {
         title: "Sentiment Analysis Release and Deployment project",
         imgSrc: "images/projects/remla/Pipeline.png",
