@@ -162,7 +162,7 @@ const journey = [
     {
         title: "Ray tracing project",
         imgSrc: "images/projects/cg-ray-tracer/ray_tracer_mirror.png",
-        description: "C++, Bounding volume hierarchy, recursive ray tracing",
+        description: "I implemented a ray tracer in C++ to render realistic 3D scenes with reflections and complex light paths. My main focus was on recursive ray tracing, which allows rays to bounce off reflective surfaces like mirrors. To keep rendering efficient, I designed and implemented a <a href=\"https://en.wikipedia.org/wiki/Bounding_volume_hierarchy\" target=\"_blank\">Bounding Volume Hierarchy (BVH)</a> acceleration structure that significantly reduced the number of triangle intersection checks per ray. As part of a class competition, I also modeled a custom character in <a href=\"https://www.blender.org/\" target=\"_blank\">Blender</a> to showcase the renderer in a more stylized scene, combining performance focused graphics programming with creative 3D modeling.",
         codeLink: "",
         resourceLink: null,
         year: "2020-2021"
@@ -170,7 +170,7 @@ const journey = [
     {
         title: "Campus Management System",
         imgSrc: "images/projects/oopp/campus-management-square.png",
-        description: "Java, OOPP, Room booking, Reserving bikes, Ordering food, user profile, Spring, Mock testing, MVC architecture, UI/UX, User access levels (admin, normal user, restaurant manager), API endpoints, adding images (user profile photos / restaurant / room photos), Randomly assigned team of 7 people",
+        description: "Developed a Campus Management System in Java using Spring and the <a href=\"https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller\" target=\"_blank\">MVC architecture</a>, where users can book rooms, reserve bikes, order food and manage their profiles with role based access for admins, regular users and restaurant managers. I designed the database schema for key entities such as rooms, bookings, menus and user profiles, and helped define the API endpoints that connect the backend logic to the UI. In a randomly assigned team of 7, I took on a coordinating role by organizing meetings, aligning design decisions and reviewing code to keep everyone on the same page. I also put in extra effort to help teammates who were less experienced with Java and <a href=\"https://spring.io/projects/spring-boot\" target=\"_blank\">Spring</a>, doing pair programming sessions and explaining concepts so that the whole team could learn and contribute confidently. The system supports uploading and displaying images for user avatars, restaurants and rooms, and we used mock testing to validate core functionality without relying on the full database stack.",
         codeLink: "",
         resourceLink: null,
         year: "2019-2020"
@@ -201,13 +201,13 @@ const journey = [
         resourceLabel: "Team Instagram",
         year: "2018-2019"
     },
-    {
-        title: "First place @ UNI-SaIN hackthon",
-        imgSrc: "images/projects/uni-sain-hackathon/noublie-entry-page.jpg",
-        description: "",
-        codeLink: "",
-        year: "2018-2019"
-    },
+    // {
+    //     title: "First place @ UNI-SaIN hackthon",
+    //     imgSrc: "images/projects/uni-sain-hackathon/noublie-entry-page.jpg",
+    //     description: "",
+    //     codeLink: "",
+    //     year: "2018-2019"
+    // },
     {
         title: "Computer Science Olympiad 2017",
         imgSrc: "images/projects/cs-olympiad/bronze-medal.png",
