@@ -178,7 +178,7 @@ const journey = [
     {
         title: "Assembly Projects",
         imgSrc: "images/projects/assembly/brainfuck.png",
-        description: "As part of the course CSE1400 - Computer Organisation, I implemented a bunch of optional assembly projects, which were written in Assembly x86-64, AT&T syntax.<br> The code for the Brainfuck esoteric language interpreter <br> Pokemon game",
+        description: "Implemented a series of low level projects, all in x86-64 assembly with AT&T syntax. Built a minimal <a href=\"https://cplusplus.com/reference/cstdio/printf/\" target=\"_blank\">printf</a> replacement that writes directly via Linux system calls, a <a href=\"https://en.wikipedia.org/wiki/Brainfuck\" target=\"_blank\">Brainfuck</a> interpreter that parses and optimizes runs of repeated commands into fewer instructions, and a small <a href=\"https://en.wikipedia.org/wiki/Pok%C3%A9mon\" target=\"_blank\">Pokemon</a> style game with custom 2D sprites, attack animations, health and damage logic, and runtime switching between characters. Through these projects I gained hands on experience with calling conventions, stack management and performance aware control flow at the instruction level.",
         codeLink: "https://github.com/ana-baltaretu/University_projects/tree/master/CSE1400%20Computer%20Organisation/Assembly/Brainfuck",
         resourceLink: null,
         year: "2019-2020"
@@ -227,7 +227,7 @@ const journey = [
     {
         title: "Founding memember & Software developer @ Primetech",
         imgSrc: "images/projects/primetech/primetech.jpg",
-        description: "",
+        description: "Participated in the first year of <a href=\"https://www.firstinspires.org/programs/ftc/\" target=\"_blank\">First Tech Challenge</a> in Romania, and developed a mobile controlled robot where I set up the Bluetooth connection between two Android phones and mapped Xbox controller inputs to drive the robot and trigger specific actions. Helped wire the robot to the main controller, motors, motor controllers, servos and sensors such as color and gyro, and learned how each component interacts at a hardware level. Programmed the robot in Java for <a href=\"https://www.android.com/\" target=\"_blank\">Android</a>, creating both teleop controls and autonomous routes that relied on sensor feedback for more reliable movement. I set up the GitHub repository for the team and used <a href=\"https://trello.com/\" target=\"_blank\">Trello</a> to distribute issues and keep track of tasks so that everyone could contribute in a more organized way.",
         codeLink: "",
         resourceLink: null,
         year: "2016-2017"
