@@ -23,7 +23,7 @@ function groupProjectsByYear(projects) {
 }
 
 // Function to create a project card
-function createProjectCard(title, imgSrc, description, codeLink = null, resourceLink = null, resourceLabel = "Relevant Resources") {
+function createProjectCard(title, imgSrc, description, codeLink = null, resourceLink = null, resourceLabel = "Relevant Resources", imgWidth = null, imgHeight = null) {
     // Check for optional links and generate buttons conditionally
     const codeButton = codeLink
         ? `<li><a href="${codeLink}" target="_blank" rel="noopener noreferrer" class="button">Code</a></li>`
@@ -35,7 +35,7 @@ function createProjectCard(title, imgSrc, description, codeLink = null, resource
     return `
         <section class="card">
             <div class="card-image">
-                ${imgSrc ? `<img src="${imgSrc}" alt="${title}" loading="lazy" />` : ""}
+                ${imgSrc ? `<img src="${imgSrc}" alt="${title}" loading="lazy" decoding="async" ${imgWidth ? `width=\"${imgWidth}\"` : ''} ${imgHeight ? `height=\"${imgHeight}\"` : ''} />` : ""}
             </div>
 
             <div class="card-content">
@@ -77,7 +77,9 @@ function renderProjectsByYear(projects) {
                 project.description,
                 project.codeLink,
                 project.resourceLink,
-                project.resourceLabel
+                project.resourceLabel,
+                project.imgWidth,
+                project.imgHeight
             );
         });
     });
